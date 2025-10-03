@@ -2,7 +2,7 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Personalize (optional): set your name + CV link once, it updates everywhere
-const YOUR_NAME = "Your Name";
+const YOUR_NAME = "Favour Iwoni";
 const CV_LINK = "#"; // e.g., link to a PDF in your repo
 
 document.getElementById('yourName').textContent = YOUR_NAME;
