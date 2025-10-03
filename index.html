@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EUC Engineer Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header class="container">
+    <div class="brand">
+      <h1>EUC Engineer Portfolio</h1>
+      <p class="tagline">Intune • Autopilot • Entra ID • AVD • PowerShell</p>
+    </div>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#logs">Learning Logs</a>
+      <a href="#about">About</a>
+      <a class="button" id="resumeLink" href="#" target="_blank" rel="noopener">Download CV</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="hero">
+      <h2>Hi, I’m <span id="yourName">Your Name</span> 👋</h2>
+      <p>
+        I’m building real-world skills as an <strong>End User Computing (EUC) Engineer</strong>:
+        Microsoft Intune/Autopilot, app packaging, BitLocker & Defender, Conditional Access, AVD, and PowerShell automation.
+      </p>
+      <div class="cta">
+        <a class="button" href="https://github.com/YOUR_GITHUB_USERNAME/EUC-Engineer-Portfolio" target="_blank" rel="noopener">View GitHub Repo</a>
+        <a class="button outline" href="#projects">See My Work</a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h3>Featured Projects</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Autopilot Deployment</h4>
+          <p>Automated Windows 11 provisioning with Autopilot profiles, ESP, and app assignment.</p>
+          <a class="link" href="01_Autopilot_Deployment/README.md">Project README</a>
+        </article>
+        <article class="card">
+          <h4>BitLocker Compliance</h4>
+          <p>Enterprise encryption via Intune endpoint security policies with compliance reporting.</p>
+          <a class="link" href="02_BitLocker_Compliance/README.md">Project README</a>
+        </article>
+        <article class="card">
+          <h4>Application Packaging</h4>
+          <p>MSI/Win32 app packaging using Intune Win32 content prep and deployment detection rules.</p>
+          <a class="link" href="03_App_Packaging/README.md">Project README</a>
+        </article>
+        <article class="card">
+          <h4>Conditional Access</h4>
+          <p>MFA enforcement, legacy auth blocking, device-based controls using Entra Conditional Access.</p>
+          <a class="link" href="04_Conditional_Access/README.md">Project README</a>
+        </article>
+        <article class="card">
+          <h4>PowerShell Automation</h4>
+          <p>Scripts for device compliance exports, bulk installs, and new-user onboarding.</p>
+          <a class="link" href="05_PowerShell_Automation/README.md">Project README</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="logs">
+      <h3>Learning Logs</h3>
+      <ul class="list">
+        <li><a href="Learning_Logs/Week1.md">Week 1 – Intune Fundamentals</a></li>
+        <li><a href="Learning_Logs/Week2.md">Week 2 – Autopilot & Enrollment</a></li>
+        <li><a href="Learning_Logs/Week3.md">Week 3 – App Packaging</a></li>
+      </ul>
+      <p class="muted">Tip: Keep adding a new markdown file each week and link it here.</p>
+    </section>
+
+    <section id="about">
+      <h3>About Me</h3>
+      <p>
+        I’m an EUC-focused engineer passionate about modern device management, secure-by-default endpoints,
+        and automation that improves user experience at scale. I document my hands-on labs and share scripts openly.
+      </p>
+      <ul class="icons">
+        <li><a class="link" target="_blank" rel="noopener" href="https://github.com/YOUR_GITHUB_USERNAME">GitHub</a></li>
+        <li><a class="link" target="_blank" rel="noopener" href="https://www.linkedin.com/in/YOUR_LINKEDIN_SLUG">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>© <span id="year"></span> <span id="yourNameFooter">Your Name</span> • Built for GitHub Pages</p>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
